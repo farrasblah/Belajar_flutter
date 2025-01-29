@@ -26,9 +26,13 @@ class LayoutDasar extends StatelessWidget{
       body: Container(
         child: Column(
           children: <Widget>[
-            TextButton(onPressed: (){}, child: Text('A'),),
-            TextButton(onPressed: (){}, child: Text('B'),),
-            TextButton(onPressed: (){}, child: Text('C'),),
+            Row(
+              children: <Widget>[
+                TextButton(onPressed: (){}, child: Text('A')),
+                TextButton(onPressed: (){}, child: Text('B')),
+                TextButton(onPressed: (){}, child: Text('C')),
+              ],
+            )
           ]
         ),
       ),

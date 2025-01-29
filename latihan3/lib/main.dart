@@ -32,7 +32,7 @@ class _KomponenWidget extends State<KomponenWidget>{
         urlImage = 'https://rezaervani.com/arsip/gambar/2.jpg';
       }
       else{
-        urlImage == 'https://rezaervani.com/arsip/gambar/1.jpg';
+        urlImage = 'https://rezaervani.com/arsip/gambar/1.jpg';
       }
     });
   }
